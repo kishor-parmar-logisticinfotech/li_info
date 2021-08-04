@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:li_info/social_signin_buttons.dart';
+import 'package:li_info/li_info.dart';
 
 void main() => runApp(MyApp());
 
