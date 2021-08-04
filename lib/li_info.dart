@@ -11,6 +11,7 @@ enum Buttons {
   GitHub,
   Apple,
   Email,
+  KishorParmar,
 }
 
 class SignInButton extends StatelessWidget {
@@ -20,7 +21,7 @@ class SignInButton extends StatelessWidget {
   final ShapeBorder? shape;
   final IconData? icon;
 
-  SignInButton(this.button, {@required this.onPressed, this.text, this.shape,this.icon})
+  SignInButton(this.button, {@required this.onPressed, this.text, this.shape, this.icon})
       : assert(button != null),
         assert(onPressed != null);
 
@@ -135,6 +136,17 @@ class SignInButton extends StatelessWidget {
           icon: icon,
           onPressed: onPressed,
           backgroundColor: Color(0xFF1DA1F2),
+          textColor: Colors.white,
+          iconColor: Colors.white,
+          shape: shape,
+        );
+      case Buttons.KishorParmar:
+        return Btn(
+          key: ValueKey("KishorParmar"),
+          text: text ?? "Kishor Parmar",
+          icon: icon,
+          onPressed: onPressed,
+          backgroundColor: Color(0xFFFF0A0A),
           textColor: Colors.white,
           iconColor: Colors.white,
           shape: shape,
