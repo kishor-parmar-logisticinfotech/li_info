@@ -1,3 +1,4 @@
+## [0.0.5] - remove third party plugin and make buttons
 ## [0.0.4] - add social media button
 ## [0.0.3] - add null-safety
 ## [0.0.2] - Update plugin and add get version code

@@ -1,6 +1,6 @@
 name: li_info
 description: User social media button
-version: 0.0.4
+version: 0.0.5
 homepage: https://github.com/kishor-parmar-logisticinfotech/li_info
 
 environment:
@@ -12,8 +12,6 @@ dependencies:
     sdk: flutter
   flutter_web_plugins:
     sdk: flutter
-
-  font_awesome_flutter: ^8.8.1
 
 dev_dependencies:
   flutter_test:

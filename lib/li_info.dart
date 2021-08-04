@@ -1,7 +1,6 @@
 library li_info;
 
 import 'package:flutter/material.dart';
-import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 enum Buttons {
   Google,
@@ -19,8 +18,9 @@ class SignInButton extends StatelessWidget {
   final Buttons? button;
   final String? text;
   final ShapeBorder? shape;
+  final IconData? icon;
 
-  SignInButton(this.button, {@required this.onPressed, this.text, this.shape})
+  SignInButton(this.button, {@required this.onPressed, this.text, this.shape,this.icon})
       : assert(button != null),
         assert(onPressed != null);
 
@@ -65,7 +65,7 @@ class SignInButton extends StatelessWidget {
         return Btn(
           key: ValueKey("Facebbok"),
           text: text ?? "Sign In With Facebook",
-          icon: FontAwesomeIcons.facebookF,
+          icon: icon,
           onPressed: onPressed,
           backgroundColor: Color(0xFF3B5998),
           textColor: Colors.white,
@@ -76,7 +76,7 @@ class SignInButton extends StatelessWidget {
         return Btn(
           key: ValueKey("Github"),
           text: text ?? "Sign In With Github",
-          icon: FontAwesomeIcons.github,
+          icon: icon,
           onPressed: onPressed,
           backgroundColor: Color(0xFF444444),
           textColor: Colors.white,
@@ -87,7 +87,7 @@ class SignInButton extends StatelessWidget {
         return Btn(
           key: ValueKey("Apple"),
           text: text ?? "Sign In With Apple",
-          icon: FontAwesomeIcons.apple,
+          icon: icon,
           onPressed: onPressed,
           backgroundColor: Colors.white,
           textColor: Colors.black,
@@ -98,7 +98,7 @@ class SignInButton extends StatelessWidget {
         return Btn(
           key: ValueKey("LinkedIn"),
           text: text ?? "Sign In With LinkedIn",
-          icon: FontAwesomeIcons.linkedin,
+          icon: icon,
           onPressed: onPressed,
           backgroundColor: Color(0xFF007BB6),
           textColor: Colors.white,
@@ -132,16 +132,17 @@ class SignInButton extends StatelessWidget {
         return Btn(
           key: ValueKey("Twitter"),
           text: text ?? "Sign In With Twitter",
-          icon: FontAwesomeIcons.twitter,
+          icon: icon,
           onPressed: onPressed,
           backgroundColor: Color(0xFF1DA1F2),
           textColor: Colors.white,
           iconColor: Colors.white,
           shape: shape,
         );
-      default: {
-        return Container();
-      }
+      default:
+        {
+          return Container();
+        }
     }
   }
 }
