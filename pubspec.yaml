@@ -1,6 +1,6 @@
 name: li_info
-description: User social media button
-version: 0.0.6
+description: Hello, this is flutter button simple plugin and we have work on this same add more funcalty for developer and we have covert to easy code simple one line funcation sor developer also welcom for contributers
+version: 0.0.7
 homepage: https://github.com/kishor-parmar-logisticinfotech/li_info
 
 environment:
@@ -12,6 +12,9 @@ dependencies:
     sdk: flutter
   flutter_web_plugins:
     sdk: flutter
+
+  images_picker: ^1.2.4 #this plugin used for pickup file and download file
+  dio: ^4.0.0 #this plugin used for api calling and file downloading
 
 dev_dependencies:
   flutter_test:
