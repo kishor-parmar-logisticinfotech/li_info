@@ -82,7 +82,7 @@ class SignInButton extends StatelessWidget {
         );
       case Buttons.Facebook:
         return Btn(
-          key: ValueKey("Facebbok"),
+          key: ValueKey("Facebook"),
           text: text ?? "Sign In With Facebook",
           icon: icon,
           onPressed: () {
@@ -269,7 +269,7 @@ class Btn extends StatelessWidget {
 * Custom TextField widgets
 *
 * */
-@immutable
+//ignore: must_be_immutable
 class EditText extends StatefulWidget {
   EditText({Color? focusColor, Color? unFocusColor, TextStyle? style, TextEditingController? textEditingController, String? hintText, EdgeInsets? margin, TextInputAction? textInputAction, TextInputType? keyboardType}) {
     if (focusColor != null) this.focusColor = focusColor;
@@ -368,7 +368,7 @@ class _EditTextState extends State<EditText> {
 
 /*
 *
-*  this method is used to get image path from gallry
+*  this method is used to get image path from gallery
 *
 * */
 

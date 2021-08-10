@@ -26,6 +26,12 @@
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
 	<string>Main</string>
+    <key>NSCameraUsageDescription</key>
+    <string>We need to access camera for picup image from camera</string>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>We need to access microphoine for recouding</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>We need to access photos from gallery</string>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>

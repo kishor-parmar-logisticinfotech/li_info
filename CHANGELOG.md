@@ -1,3 +1,4 @@
+## [0.0.9] - add image selection permission in ios   
 ## [0.0.8] - add custom textField widgets and add image selection with cropping  
 ## [0.0.7] - add custom textField widgets and add image selection with cropping  
 ## [0.0.6] - add more buttons
