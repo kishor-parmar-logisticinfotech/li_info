@@ -12,7 +12,7 @@ samples, guidance on mobile development, and a full API reference.
 
 ## Plugin android and ios
 <br><img src="documentation_images/android_li_plugin_0.0.1.gif" width="250" height="500">
- <img src="documentation_images/ios_li_plugin_0.0.9.gif" width="250" height="500">
+&nbsp;&nbsp;&nbsp;<img src="documentation_images/ios_li_plugin_0.0.9.gif" width="250" height="500">
 
 also most welcome for contributors [Contact Us](mailto:kishor@logisticinfotech.com) 
 
